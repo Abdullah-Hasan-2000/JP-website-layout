@@ -4,11 +4,11 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif
 }
 
 .width-80 {
-    width: 70%;
+    width: 1200px;
 }
 
 .margin-auto {
@@ -45,9 +45,10 @@ body {
 
 .links {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
-    width: 35%;
+    column-gap: 25px;
+    width: 35vw;
 
 }
 
@@ -83,21 +84,57 @@ body {
 
 .LandingPage-first-para {
     display: flex;
-    
+    justify-content: space-between;
 }
 
 .first-para-info {
-    width: 60%;
+    width: 52%;
 }
 
 .first-para-image {
+    display: flex;
+    align-items: center;
     width: 40%;
 }
 
 .first-para-image>img {
-    width: 100%;
+    width: 480px;
+    height: 280px;
 }
 
-.first-para-info>h1 {
+.first-para-info>h2 {
     width: 300px;
+    color: #006838;
+    line-height: 60px;
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+.first-para-info>p {
+    color: grey;
+    font-weight: 100;
+    line-height: 30px;
+}
+
+.first-para-bxsh {
+    box-shadow: 10 5px 2px grey;
+}
+
+/* First Para layout */
+
+/* Second Para layout */
+
+.sec-para>h2 {
+    width: 450px;
+}
+
+.sec-para-bxsh {
+    box-shadow: 10px 5px 10px grey;
+}
+
+/* Second Para layout */
+
+/* Third Para layout */
+
