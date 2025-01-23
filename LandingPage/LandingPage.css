@@ -333,9 +333,131 @@ body {
 /* Fifth para layout */
 
 .form-divider {
-    border: 1px solid black;
+    border: 1px solid rgb(223, 223, 223);
 }
 
 /* Sixth para layout */
 
 /* Sixth para layout */
+
+.sixth-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-border {
+    margin: 100px 0;
+    box-shadow: 0 5px 5px rgb(221, 221, 221);
+    padding: 20px;
+    width: 500px;
+    
+}
+
+.form-inputs {
+    display: flex;
+    flex-direction: column;
+    color: grey;
+    margin-right: 10px;
+}
+
+.form-inputs>h1 {
+    font-size: 20px;
+    font-weight: 900;
+    padding: 10px 0;
+}
+
+.form-inputs label {
+    display: block;
+    font-size: 12px;
+    margin: 20px 0 10px 0;
+}
+
+.form-inputs input {
+    width: 100%;
+    height: 30px;
+    font-size: 12px;
+    border: 1px solid rgba(211, 211, 211, 0.5);
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.form-inputs input:focus {
+    outline: 1px solid blue;
+}
+
+.form-inputs textarea {
+    width: 100%;
+    height: 100px;
+    font-size: 12px;
+    border: 1px solid rgba(211, 211, 211, 0.5);
+    border-radius: 3px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.form-inputs textarea:focus {
+    outline: 1px solid blue;
+}
+
+.form-inputs button{
+    width: 100%;
+    height: 40px;
+    font-size: 12px;
+    margin-top: 20px;
+    font-size: 16px;
+    background-color: #006838;
+    border: none;
+    color: white;
+}
+
+.form-inputs button:hover {
+    background-color: grey;
+    cursor: pointer;
+}
+
+.form-inputs span {
+    color: red;
+}
+
+/* footer layout */
+
+
+.footer {
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+.footer-1 {
+    width: 80%;
+    display: flex;
+    margin: 20px 0;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.extragap {
+    padding-right: 200px;
+}
+
+.footer-img {
+    width: 250px;
+}
+
+.footer-img img{
+    width: 100%
+}
+
+.footer-1 p {
+    padding: 5px 0;
+    font-size: 14px;
+    color: #006838;
+}
+
+.footer-1 p:first-child {
+    font-weight: 600;
+}
+/* footer layout */
